@@ -1,4 +1,7 @@
-﻿using System;
+using Shared;
+
+using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -7,9 +10,6 @@ using Windows.Devices.Bluetooth.Rfcomm;
 using Windows.Devices.Enumeration;
 using Windows.Networking.Sockets;
 using Windows.Storage.Streams;
-
-using Shared;
-using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Phonebook
 {
