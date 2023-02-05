@@ -9,9 +9,9 @@ The phonebook example connects to a device, requests access to the "phonebook ac
 
 ### Steps
 - Connect To Device
--- Either connects to a device with the provided UUID or starts device discovery and pairing
--- Creates an RFCOMM connection for the Phonebook Access Profile.
--- Opens input and output streams to the device.
+  - Either connects to a device with the provided UUID or starts device discovery and pairing
+  - Creates an RFCOMM connection for the Phonebook Access Profile.
+  - Opens input and output streams to the device.
 - Connect to Phonebook Access Profile
 - Pull contacts from connected device
 
