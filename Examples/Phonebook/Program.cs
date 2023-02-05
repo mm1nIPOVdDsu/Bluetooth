@@ -101,9 +101,6 @@ namespace Phonebook
             //       RequestAccessAsync allows the app to make the access request explicit in the
             //       event where the device may become paired in the future through other uses of
             //       the device.
-            //       If connecting on a non-ui thread, connecting the socket below will cause the
-            //       Android consent notification to pop or the iOS Bluetooth permissions be 
-            //       appear in System > Bluetooth > (i) > Sync.
             if (rfcommService.DeviceAccessInformation.CurrentStatus is not DeviceAccessStatus.Allowed)
             {
                 var accessStatus = await rfcommService.RequestAccessAsync();
