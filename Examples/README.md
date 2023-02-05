@@ -1,5 +1,5 @@
 # Introduction
-Examples of connecting to and interacting with various Bluetooth profiles for a phone. All examples are intentionally verbose to provide the most amount of detail in how interacting with a profile works. Once it is understood how the communication works to a device, it can be abstracted out.
+Examples of connecting to and interacting with various Bluetooth Classic profiles for a phone. All examples are intentionally verbose to provide the most amount of detail in how interacting with a profile works. Once it is understood how the communication works to a device, it can be abstracted out.
 
 # Getting Started
 - Dependencies
