@@ -22,4 +22,10 @@ NOTE: this is still a work in progress as there is an issue parsing a response m
 ## Message Profile
 Working on it.
 
-- Drew
+# FAQ
+
+## Why is it taking so long for my phone to get a pairing request/Why am I getting errors connecting to my device?
+If you've been pairing/unpairing the device multiple times, your phone/computer can get a little stupid. The Windows stack for Bluetooth isn't the best. Disabling/enabling Bluetooth on the phone and/or your computer typically works.
+
+## Why is it failing when requesting access to a device profile?
+This is more a problem with iOS than Android as Android will pop a notification for a profile request. Apple like being different so they only prompt if you're using BLE and their special way of connecting. To help remedy this, have be in the Bluetooth settings menu when connecting, go into and back out of details (the (i) thing). Eventaully the permissions button will appear.
