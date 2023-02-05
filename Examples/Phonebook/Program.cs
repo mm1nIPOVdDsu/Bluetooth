@@ -16,7 +16,7 @@ namespace Phonebook
     internal class Program
     {
         private const string PBAP_UUID = "0000112f-0000-1000-8000-00805f9b34fb";
-        private static string deviceId = "YOUR PHONE'S ID GOES HERE ONCE PAIRED";
+        private static string deviceId = ""; // Your phone's ID goes here once paired
 
         static async Task Main(string[] args)
         {
@@ -25,7 +25,7 @@ namespace Phonebook
             BluetoothDevice? bluetoothDevice;
             if (string.IsNullOrEmpty(deviceId) is false)
             {
-                bluetoothDevice = await BluetoothDevice.FromIdAsync("[YOUR PHONE'S ID GOES HERE ONCE PAIRED]");
+                bluetoothDevice = await BluetoothDevice.FromIdAsync(deviceId);
             }
             else
             {
