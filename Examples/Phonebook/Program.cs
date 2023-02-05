@@ -23,7 +23,6 @@ namespace Phonebook
             //await TestWritingStuff();
 
             BluetoothDevice? bluetoothDevice;
-#if DEBUG
             if (string.IsNullOrEmpty(deviceId) is false)
             {
                 bluetoothDevice = await BluetoothDevice.FromIdAsync("[YOUR PHONE'S ID GOES HERE ONCE PAIRED]");
@@ -40,9 +39,7 @@ namespace Phonebook
                 var selectedDevice = devices[0];
                 bluetoothDevice = await BluetoothDevice.FromIdAsync(selectedDevice.Id);
             }
-#else
 
-#endif
             if (bluetoothDevice is null)
                 throw new NullReferenceException(nameof(bluetoothDevice));
 
