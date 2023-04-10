@@ -34,8 +34,10 @@ Working on it.
 
 # Helpful Links
 ## Bluetooth
- - Specifications: https://www.bluetooth.com/specifications/specs/?types=specs-docs&keyword=&filter=
- - Apple Supported Profiles: https://support.apple.com/en-us/HT204387
+ - [Bluetooth Core Specifications (current)](https://www.bluetooth.com/specifications/specs/core-specification-5-3/)
+ - [Profile Specifications](https://www.bluetooth.com/specifications/specs/?types=specs-docs&keyword=&filter=)
+ - [Bluetooth Assigned Numbers](https://www.bluetooth.com/specifications/assigned-numbers/)
+ - [Apple Supported Profiles](https://support.apple.com/en-us/HT204387)
 
 # FAQ
 
