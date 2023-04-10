@@ -1,13 +1,21 @@
 # Introduction
 Examples of connecting to and interacting with various Bluetooth Classic profiles for a phone. All examples are intentionally verbose to provide the most amount of detail in how interacting with a profile works. Once it is understood how the communication works to a device, it can be abstracted out.
 
+The specifications used by iOS and Android for MAP (v1.1) and PBAP (v1.2) are rather old and will be deprecated soon. The next version that is selected could be 1.2.2, 1.3.1, or 1.4.2 for MAP and 1.2.3 for PBAP.
+
+ - PBAP 
+  - Version 1.2
+  - Deprecation Date: February 1 2021
+  - Withdrawal Date: February 1 2024
+ - MAP 
+  - Vesrion 1.1
+  - Deprecation Date: February 1 2023
+  - Withdrawal Date: February 1 2024
+ 
 # Getting Started
 - Dependencies
   -  .NET 6
   -  Windows 10.0.19041.0 minimum
-
-# Examples
-
 
 ## Phonebook Profile
 The phonebook example connects to a device, requests access to the "phonebook access profile" (PBAP), pulls contacts, then disconnects.
@@ -21,6 +29,11 @@ NOTE: this is still a work in progress as there is an issue parsing a response m
 
 ## Message Profile
 Working on it.
+
+# Helpful Links
+## Bluetooth
+ - Specifications: https://www.bluetooth.com/specifications/specs/?types=specs-docs&keyword=&filter=
+ - Apple Supported Profiles: https://support.apple.com/en-us/HT204387
 
 # FAQ
 
